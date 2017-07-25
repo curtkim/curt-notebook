@@ -8,3 +8,4 @@ RUN conda install --quiet --yes 'pymc3'
 RUN conda install --quiet --yes 'tensorflow=1.1.*'
 
 RUN pip install -q edward
+RUN pip intalll -q keras
