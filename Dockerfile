@@ -10,3 +10,6 @@ RUN conda install --quiet --yes 'tensorflow'
 
 RUN pip install -q edward
 RUN pip install -q keras
+RUN pip install -q psycopg2
+
+RUN pip install -q bokeh
