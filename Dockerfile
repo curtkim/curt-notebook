@@ -15,3 +15,5 @@ RUN pip install -q psycopg2
 
 RUN pip install -q bokeh
 RUN pip install -q pgmpy wrapt
+
+RUN pip install -q cvxpy
